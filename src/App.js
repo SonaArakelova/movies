@@ -212,7 +212,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 
 
-const URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+const URL = ` https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}` ;
 
 
 const Header = ({ onSearchSubmit }) => {
